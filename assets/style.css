@@ -1,0 +1,38 @@
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.topDiv {
+    background-color: #5a6acd;
+    border: 4px solid #000000; 
+    text-align: center;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .flex-container>div {
+    /* background-color: DodgerBlue; */
+    width: 33.33%;
+    margin: 10px;
+    line-height: 75px;
+    height: 700px;
+  }
+  .first {
+    background-color: #f08080; 
+    border: 4px solid #000000;   
+  }
+
+  .second {
+    background-color: #59c46b; 
+    border: 4px solid #000000;   
+  }
+
+  .third {
+    background-color: rgb(255, 208, 0);
+    border: 4px solid #000000;
+  }
